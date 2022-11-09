@@ -18,20 +18,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="circle" id="white-center">
-        <div className="circle" id="intensity-full">
-          <div className="circle" id="intensity-eighty">
-            <div className="circle" id="intensity-sixty">
-              <div className="circle" id="intensity-forty">
-                <div className="circle" id="intensity-twenty">
+      {/* <div className="circle" id="white-center"> */}
+        <div className="circle" id="intensity-full-blue">
+          <div className="circle" id="intensity-eighty-blue">
+            <div className="circle" id="intensity-sixty-blue">
+              <div className="circle" id="intensity-forty-blue">
+                {/* <div className="circle" id="intensity-twenty">
                   <div className="circle" id ="intensity-zero"></div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
 
-      </div>
+      {/* </div> */}
 
       {/* <header className="App-header"> */}
       {/* <h1>Select a Color</h1> */}
