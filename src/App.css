@@ -1,5 +1,97 @@
-.App {
+/* Testing button */
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/*  Button colors - basic */
+#green-basic {
+  background-color: green;
+}
+
+#blue-basic {
+  background-color: blue;
+}
+
+/* #white-center {
+  border-radius: 50%;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  position: relative;
+    box-shadow: 0 0 0 100px blue;
+
+} */
+
+#intensity-full {
+  /* opacity: 1; */
+  /* background-color: blue; */
+  /* background-color: #41B8EA; */
+  width: 500px;
+  height: 500px;
+  position: relative;
+  box-shadow: 0 0 0 120px #41B8EA;
+  border-radius: 50%;
+  /* margin: 100px; */
+}
+
+#intensity-eighty {
+  /* background-color: blue; */
+  /* opacity: 0.2; */
+  width: 400px;
+  height: 400px;
+  /* background-color: green; */
+  box-shadow: 0 0 0 100px #70C3ED;
+  border-radius: 50%;
+  position: relative;
+  transform: translate(50px, 50px);
+  /* transform: translate(15%, 15%); */
+}
+
+#intensity-sixty {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 0 70px #97D1F2;
+  border-radius: 50%;
+  position: relative;
+  transform: translate(50px, 50px);
+}
+
+#intensity-forty {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 0 50px #B7DFF4;
+  border-radius: 50%;
+  position: relative;
+  transform: translate(50px, 50px);
+}
+
+#intensity-twenty {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 50px #DBECFA;
+  border-radius: 50%;
+  position: relative;
+  transform: translate(50px, 50px);
+}
+
+
+.App {
+  /* text-align: center; */
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
