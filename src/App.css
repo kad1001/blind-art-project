@@ -39,8 +39,8 @@
 
 
 #intensity-full-blue {
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   position: absolute;
   background-color: #41B8EA;
   /* box-shadow: 0 0 0 1rem #41B8EA; */
@@ -49,8 +49,8 @@
 }
 
 #intensity-eighty-blue {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   background-color: #70C3ED;
   border-radius: 0 0 20rem 0; 
   position: relative;
@@ -58,8 +58,8 @@
 }
 
 #intensity-sixty-blue {
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   border-radius: 0 0 20rem 0; 
   background-color: #97D1F2;
   border-radius: 0 0 20rem 0; 
@@ -68,23 +68,31 @@
 }
 
 #intensity-forty-blue {
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 6rem;
   background-color: #B7DFF4;
   border-radius: 0 0 20rem 0;
   position: relative;
   transform: translate(0px, 0px);
 }
 
-#intensity-twenty {
-  width: 100px;
-  height: 100px;
-  box-shadow: 0 0 0 50px #DBECFA;
-  border-radius: 50%;
+#intensity-twenty-blue {
+  width: 4rem;
+  height: 4rem;
+  background-color: #DBECFA;
+  border-radius: 0 0 20rem 0;
   position: relative;
-  transform: translate(50px, 50px);
+  transform: translate(0px, 0px);
 }
 
+#intensity-zero{
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 0 0 20rem 0;
+  position: relative;
+  transform: translate(0px, 0px);
+}
 
 .App {
   /* text-align: center; */
