@@ -1,5 +1,5 @@
 import React from 'react';
-import { SketchPicker } from 'react-color';
+import { GithubPicker } from 'react-color';
 
 class Component extends React.Component {
     state = {
@@ -8,16 +8,35 @@ class Component extends React.Component {
     };
 
     // When the color is changed, this will fire and set the new color to state
-    handleChangeComplete = (color) => {
-        console.log(color.hex)
+    handleChangeComplete = (color, e) => {
+        console.log(color)
         this.setState({ background: color.hex });
+        console.log(this.focus)
+        if (e.code === "Enter") {
+            console.log('The color you picked is ', this.state.background)
+        }
     };
 
     render() {
-        return <SketchPicker
-            color={this.state.background}
-            onChangeComplete={this.handleChangeComplete}
-        />;
+        return (
+            <div>
+                <GithubPicker
+                    color={this.state.background}
+                    onChangeComplete={this.handleChangeComplete}
+                    tabIndex={'-1'}
+                />
+                <div style={
+                    {
+                        height: '50px',
+                        width: '50px',
+                        alignContent: 'center',
+                        backgroundColor: this.state.background
+                    }
+                }>
+                </div>
+            </div>
+
+        );
     }
 }
 
